@@ -1,0 +1,31 @@
+.trans-list {
+  width:8%;
+  height: 64px;
+  margin: 10px 0;
+  background-color: #486AAA;
+  color: #fff;
+  text-align: center;
+}
+.ease {
+  transition: all 4s ease;
+}
+
+.ease-in {
+  transition: all 4s ease-in;
+}
+.ease-out {
+  transition: all 4s ease-out;
+}
+.ease-in-out {
+  transition: all 4s ease-in-out;
+}
+.linear {
+  transition: all 4s linear;
+}
+.trans-box:hover .trans-list{
+  margin-left: 89%;
+  background-color: #BECEEB;
+  color:#333;
+  border-radius: 25px;
+  transform: rotate(360deg);
+}
